@@ -1,4 +1,7 @@
 var resumeBox = document.getElementById("resume")
+var body = document.body
 
-console.log(document.body.scrollTop)
-resumeBox.animate()
+if(body.scrollTop < 50) {
+    console.log("+50")
+    resumeBox.getAnimations
+}
