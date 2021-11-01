@@ -1,7 +1,14 @@
-var resumeBox = document.getElementById("resume")
-var body = document.body
-
-if(body.scrollTop < 50) {
-    console.log("+50")
-    resumeBox.getAnimations
+const tryAnimate = () => {
+    if (pageYpourcent > 45) {
+        document.getElementById("resume").style.animationPlayState = "running";
+    }
+    return pageYpourcent
 }
+
+var pageYpourcent = Math.round(scrollY / scrollMaxY * 100)
+console.log(tryAnimate())
+
+window.addEventListener('scroll', function () {
+    pageYpourcent = Math.round(scrollY / scrollMaxY * 100)
+    console.log(tryAnimate())
+});

@@ -116,22 +116,31 @@ header a:visited {
 }
 
 #resume {
-	padding: 30px;
 	display:flex;
 	justify-content: center;
-
+	animation: fadeInUp 1s;
+	animation-play-state: paused;
+	
 }
 
 .boxText {
-	color: var(--usafa-blue-hover);
-	float: left;
-	background-color: var(--ghost-white);	
-	padding: 10px 20px;
 	margin-right: 10%;	
-	width: 30%;
+	width: 40%;
 	height: 30%;
-	animation: fadeInUp 1s;
-	animation-play-state: paused;
+}
+
+.boxText h1 {
+	margin: 0;
+	position: relative;
+	bottom: 2vw;
+}
+
+.boxText p {
+	margin: 0;
+}
+
+#resume img {
+	height: 100%;
 }
 
 @keyframes fadeInUp {
@@ -144,11 +153,6 @@ header a:visited {
 		opacity: 1;
 		transform: translateY(0);
 	}
-}
-
-#resume img{
-	animation: fadeInUp 1s;
-	animation-play-state: paused;
 }
 
 
@@ -185,7 +189,7 @@ footer{
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 120px;
 	font-family: JosefinSans-Bold;
 	color:var(--dark-grey-blue);
 }
