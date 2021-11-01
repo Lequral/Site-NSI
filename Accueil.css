@@ -61,7 +61,7 @@ header .button {
 }
 
 header a {
-	font-size:xx-large;
+	font-size: 0.9vw;
 	color: var(--ghost-white);
 	margin: 0.3% 1em;
 	background-color: var(--usafa-blue);
@@ -155,7 +155,7 @@ header a:visited {
 
 
 #bandeaufin{
-	max-width:100%;
+	width:100%;
 	position: relative;
 	top:20px;
 }
