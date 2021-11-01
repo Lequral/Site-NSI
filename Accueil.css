@@ -54,12 +54,11 @@ header .button {
 	top: 15%;
 	display: flex;
 	justify-content: center;
-	margin: 5%;
 }
 
 header a {
 	color: var(--ghost-white);
-	margin: 0 1em;
+	margin: 0.3% 1em;
 	background-color: var(--usafa-blue);
 	border-radius: 5px;
 	padding: 0.8em 0.9em;
