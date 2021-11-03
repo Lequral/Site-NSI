@@ -117,8 +117,6 @@ header a:visited {
 #resume {
 	display:flex;
 	justify-content: center;
-	animation: fadeInUp 1s;
-	animation-play-state: paused;
 	align-items: center;
 }
 
@@ -157,7 +155,10 @@ header a:visited {
 	}
 }
 
-
+.animate {
+	animation: fadeInUp 1s;
+	animation-play-state: paused;
+}
 
 
 #bandeaufin{
