@@ -72,7 +72,7 @@ header a:hover {
 	background-color: var(--usafa-blue-hover);
 }
 
-header a:visited {
+header #visit {
 	background-color: var(--usafa-blue-visited);
 }
 
