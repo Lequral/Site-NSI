@@ -1,0 +1,139 @@
+@font-face {
+    font-family: JosefinSans-Light;
+    src: url(./font/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: JosefinSans-Thin;
+    src: url(./font/JosefinSans-Thin.ttf);
+}
+@font-face {
+    font-family: JosefinSans-Medium;
+    src: url(./font/JosefinSans-Medium.ttf);
+}
+@font-face {
+    font-family: JosefinSans-Regular;
+    src: url(./font/JosefinSans-Regular.ttf);
+}
+@font-face {
+    font-family: JosefinSans-Bold;
+    src: url(./font/JosefinSans-Bold.ttf);
+}
+
+* {
+	scrollbar-color: #454a4d #202324;
+}
+
+:root {
+	--black: #000000;
+	--grey: #5c6d5a;
+	--pacific-blue: #2ba8cb;
+	--usafa-blue-hover: #00508f;
+	--usafa-blue-visited: #005CA3;
+	--usafa-blue: #0068B8;
+	--ghost-white: #f5f7fb;
+	--dark-grey-blue: #20222C;
+	--lighter-grey-blue: #7C81A2;
+}
+
+
+body {
+ 	background: #f5f7fb;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header {
+	font-family: JosefinSans-Medium;
+	font-size: 1.4em;
+	background-color: var(--usafa-blue);
+}
+
+header .button {
+	position: relative;
+	top: 15%;
+	display: flex;
+	justify-content: center;
+}
+
+header a {
+	color: var(--ghost-white);
+	margin: 0.4% 2em;
+	background-color: var(--usafa-blue);
+	border-radius: 5px;
+	padding: 0.8em 0.9em;
+}
+
+header a:hover {
+	background-color: var(--usafa-blue-hover);
+}
+
+header a:visited {
+	background-color: var(--usafa-blue-visited);
+}
+
+
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(20%);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate {
+	animation: fadeInUp 1s;
+	animation-play-state: paused;
+}
+
+
+#bandeaufin{
+	width:100%;
+	position: relative;
+	top:20px;
+}
+
+#creditBar {
+	margin-top:0px;
+	background-color: var(--dark-grey-blue);
+	min-height: 100px;
+	color: var(--lighter-grey-blue);
+	font-size: 15px;
+}
+
+#creditBar p {
+	margin-left: 80%;
+	max-height: 30px;
+	position:relative;
+	top:35px;
+	font-size: 15px;
+	font-family: JosefinSans-Regular;
+	color:var(--lighter-grey-blue);
+}
+
+
+footer{
+	position:relative;
+	top:450px;
+}
+
+h1 {
+	font-size: 110px;
+	font-family: JosefinSans-Bold;
+	color:var(--dark-grey-blue);
+}
+
+p {
+	font-size: 22px;
+	font-family: JosefinSans-Medium;
+	color:var(--grey);
+}
