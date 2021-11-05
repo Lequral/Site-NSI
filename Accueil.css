@@ -152,7 +152,8 @@ header #visit {
 
 .gallery h1 {
 	position: relative;
-	top: 5vw;
+	top: 6vw;
+	margin-top: 4vw;
 }
 
 .gallery div {
