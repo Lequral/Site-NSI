@@ -144,9 +144,15 @@ header #visit {
 }
 
 .gallery {
+	display: inline;
 	margin-top: 10%;
 	padding: 5%;
 	text-align: center;
+}
+
+.gallery h1 {
+	position: relative;
+	top: 5vw;
 }
 
 .gallery div {
