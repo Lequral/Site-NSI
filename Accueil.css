@@ -151,8 +151,8 @@ header #visit {
 
 .gallery h1 {
 	position: relative;
-	top: 6vw;
-	margin-top: 4vw;
+	top: 7vw;
+    margin-top: 7vw;
 }
 
 .gallery div {
@@ -167,7 +167,7 @@ header #visit {
 
 
 .gallery .jake #img {
-	margin-right: 5%;
+	margin-right: 7%;
 	width: 70%;
 }
 
@@ -187,7 +187,7 @@ header #visit {
 
 
 .gallery .neytiri #img {
-	margin-left: 2%;
+	margin-left: 7%;
 	width: 70%;
 }
 

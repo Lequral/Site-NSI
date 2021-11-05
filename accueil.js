@@ -18,9 +18,12 @@ const restartAnimation = i => {
 const tryAnimate = () => {
 
     let yMinMax = [
-        [10, 52],
-        [35, 77],
-        [70, 100]
+        [0, 100],
+        [0, 100],
+        [0, 100],
+        [0, 100],
+        [0, 100],
+        [0, 100]
     ]
 
     for (i in [...Array(toAnimate.length).keys()]) {
@@ -29,10 +32,10 @@ const tryAnimate = () => {
         
         if (yCoord[0] < pageYpourcent && pageYpourcent < yCoord[1]) {//yCoord[0] = l'ordonné minimale pour animer, yCoord[1] = l'ordonné max
             toAnimate[i].style.animationPlayState = "running";
-            console.log("animate")
+            // console.log("animate")
         } else {
             if (toAnimate[0].style.animationPlayState == "running") {
-                console.log("restart animation")
+                // console.log("restart animation")
                 restartAnimation(i)
             }
         }
