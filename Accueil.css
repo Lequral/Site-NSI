@@ -142,21 +142,25 @@ header #visit {
 	height: 100%;
 }
 
+
+
 .gallery {
-	display: inline;
-	margin-top: 10%;
+	/* display: inline; */
+	/* margin-top: 7%; */
 	padding: 5%;
 	text-align: center;
 }
 
 .gallery h1 {
-	position: relative;
+	/* position: relative;
 	top: 7vw;
     margin-top: 7vw;
+	margin-bottom: 10%; */
+	margin-top: 7vw;
 }
 
 .gallery div {
-	margin-top: 13%;
+	margin-top: 5%;
 	display: flex;
 	justify-content: center;
 }
@@ -167,7 +171,6 @@ header #visit {
 
 
 .gallery .jake #img {
-	margin-right: 7%;
 	width: 70%;
 }
 
@@ -182,12 +185,11 @@ header #visit {
 	height: 30%;
 	color: var(--black);
 	position: relative;
-	left: 5vw;
+	left: 4vw;
 }
 
 
 .gallery .neytiri #img {
-	margin-left: 7%;
 	width: 70%;
 }
 
@@ -196,12 +198,29 @@ header #visit {
 	top: 1vw;
 }
 
+.gallery .trudy{
+	width: 50%;
+	margin-left:5%
+}
+
+.gallery .trudy img{
+	width: auto;
+	height: auto;
+}
+
+.gallery .colonel{
+	width: 50%;
+	margin-right:5%;
+}
+
 .gallery p {
 	margin-top: 10%;
 	color: var(--black);
-	position: relative;
-	right: 2vw;
+	/* position: relative;
+	right: 2vw; */
 }
+
+
 
 @keyframes fadeInUp {
 	from {
@@ -212,6 +231,18 @@ header #visit {
 	to {
 		opacity: 1;
 		transform: translateY(0);
+	}
+}
+
+@keyframes fadeOutUp {
+	from {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	to {
+		opacity: 0;
+		transform: translateY(20%);
 	}
 }
 
