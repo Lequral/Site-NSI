@@ -23,7 +23,7 @@ const tryAnimate = () => {
 
     for (i in [...Array(toAnimate.length).keys()]) {
         let yCoord = yMinMax[i]
-        console.log(`i = ${i}`)
+        // console.log(`i = ${i}`) pour débugger
         
         if (yCoord[0] < pageYpourcent && pageYpourcent < yCoord[1]) {//yCoord[0] = l'ordonné minimale pour animer, yCoord[1] = l'ordonné max
             toAnimate[i].style.animationPlayState = "running";
