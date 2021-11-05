@@ -180,10 +180,10 @@ header #visit {
 }
 
 .gallery .jake p {
-	margin-top: 10%;
+	/* margin-top: 10%; */
 	width: 35%;
 	height: 30%;
-	color: var(--black);
+	/* color: var(--black); */
 	position: relative;
 	left: 4vw;
 }
