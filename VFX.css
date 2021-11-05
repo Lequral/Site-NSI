@@ -78,6 +78,20 @@ header #visit {
 
 
 
+
+.imgAccueilVFX img{
+	width:100%; 
+}
+
+/* .frame{
+	
+} */
+
+
+
+
+
+
 @keyframes fadeInUp {
 	from {
 		opacity: 0;
@@ -137,18 +151,3 @@ p {
 	font-family: JosefinSans-Medium;
 	color:var(--grey);
 }
-
-/*entre la*/
-.imgAccueilVFX{
-	
-	padding: 0;
-	width:100%; 
-
-}
-
-.frame {
-	width: 100%;
-}
-
-/*et la*/
-
