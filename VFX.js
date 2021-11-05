@@ -18,7 +18,7 @@ const restartAnimation = i => {
 const tryAnimate = () => {
 
     let yMinMax = [
-        [0, 0]
+        [0, 100]
     ]
 
     for (i in [...Array(toAnimate.length).keys()]) {
