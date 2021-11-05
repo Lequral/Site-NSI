@@ -143,6 +143,69 @@ header #visit {
 	height: 100%;
 }
 
+.gallery {
+	margin-top: 10%;
+	padding: 5%;
+	text-align: center;
+}
+
+.gallery div {
+	display: flex;
+	justify-content: center;
+}
+
+.gallery img {
+	max-width: 100%;
+}
+
+.gallery .jake {
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery .jake #img {
+	margin-right: 5%;
+	width: 70%;
+}
+
+.gallery .jake #arrow {
+	position: relative;
+	top: 1vw;
+}
+
+.gallery .jake p {
+	margin-top: 10%;
+	width: 35%;
+	height: 30%;
+	color: var(--black);
+	position: relative;
+	left: 3vw;
+}
+
+.gallery .neytiri {
+	margin-top: 10%;
+	display: flex;
+	justify-content: center;
+}
+
+.gallery .neytiri #img {
+	margin-left: 2%;
+	width: 70%;
+}
+
+.gallery .neytiri #arrow {
+	position: relative;
+	top: 1vw;
+}
+
+.gallery p {
+	margin-top: 10%;
+	color: var(--black);
+	position: relative;
+	right: 2vw;
+}
+
 @keyframes fadeInUp {
 	from {
 		opacity: 0;
@@ -188,7 +251,7 @@ header #visit {
 
 footer{
 	position:relative;
-	top:450px;
+	top:5%;
 }
 
 h1 {
