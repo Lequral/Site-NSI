@@ -156,6 +156,7 @@ header #visit {
 }
 
 .gallery div {
+	margin-top: 10%;
 	display: flex;
 	justify-content: center;
 }
@@ -164,11 +165,6 @@ header #visit {
 	max-width: 100%;
 }
 
-.gallery .jake {
-	margin-top: 10%;
-	display: flex;
-	justify-content: center;
-}
 
 .gallery .jake #img {
 	margin-right: 5%;
@@ -186,14 +182,9 @@ header #visit {
 	height: 30%;
 	color: var(--black);
 	position: relative;
-	left: 3vw;
+	left: 5vw;
 }
 
-.gallery .neytiri {
-	margin-top: 10%;
-	display: flex;
-	justify-content: center;
-}
 
 .gallery .neytiri #img {
 	margin-left: 2%;
