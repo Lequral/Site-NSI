@@ -151,3 +151,24 @@ p {
 	font-family: JosefinSans-Medium;
 	color:var(--grey);
 }
+
+
+/*
+.boxText {
+	margin-right: 10%;	
+	width: 35%;
+	height: 30%;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+.boxText h1 {
+	margin: 0;
+	position: relative;
+	bottom: 2vw;
+}
+
+.boxText p {
+	margin: 0;
+}
+*/
