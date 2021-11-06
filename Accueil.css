@@ -226,6 +226,22 @@ header #visit {
 	width: 50%;
 }
 
+.gallery .DrGraceAugustine #humain{
+	width: 65%;
+	margin-right: 3%;
+}
+
+.gallery .DrGraceAugustine #humain p img{
+	position: relative;
+	top: 1vw;
+}
+
+.gallery .DrGraceAugustine #avatar{
+	width: 35%;
+	max-height: 342px;
+	margin-left: 3%;
+}
+
 
 
 @keyframes fadeInUp {
