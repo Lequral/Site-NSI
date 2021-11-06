@@ -153,22 +153,41 @@ p {
 }
 
 
-/*
+
 .boxText {
 	margin-right: 10%;	
-	width: 35%;
+	width: 100%;
 	height: 30%;
 	text-align: justify;
 	text-justify: inter-word;
 }
 
 .boxText h1 {
-	margin: 0;
+	margin: 2;
 	position: relative;
 	bottom: 2vw;
 }
 
 .boxText p {
 	margin: 0;
+	width: 35%;
+	position: absolute;
+
+
+}#MotionCapture img {
+	width: 40%;
+	height: 100%;
+	position: relative;
+	margin-left: 40%;
 }
+
+
+
+.boxText{
+
+	margin-left:5%
+	
+	
+}
+
 
