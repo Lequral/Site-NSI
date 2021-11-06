@@ -169,6 +169,14 @@ header #visit {
 	max-width: 100%;
 }
 
+.gallery p {
+	margin-top: 10%;
+	color: var(--black);
+}
+
+.gallery .jake {
+	margin-top: 8%;
+}
 
 .gallery .jake #img {
 	width: 70%;
@@ -180,14 +188,16 @@ header #visit {
 }
 
 .gallery .jake p {
-	/* margin-top: 10%; */
 	width: 35%;
 	height: 30%;
-	/* color: var(--black); */
 	position: relative;
 	left: 4vw;
 }
 
+.gallery .neytiri p {
+	position: relative;
+	right: 2vw;
+}
 
 .gallery .neytiri #img {
 	width: 70%;
@@ -198,26 +208,22 @@ header #visit {
 	top: 1vw;
 }
 
-.gallery .trudy{
-	width: 50%;
-	margin-left:5%
+.gallery .trudyAndColonel p.trudy {
+	position: relative;
+	top:5vw
 }
 
-.gallery .trudy img{
-	width: auto;
-	height: auto;
+.gallery .trudyAndColonel .trudy img {
+	position: relative;
+	top: 1vw;
+}
+
+.gallery .trudy{
+	width: 50%;
 }
 
 .gallery .colonel{
 	width: 50%;
-	margin-right:5%;
-}
-
-.gallery p {
-	margin-top: 10%;
-	color: var(--black);
-	/* position: relative;
-	right: 2vw; */
 }
 
 
