@@ -244,34 +244,11 @@ header #visit {
 }
 
 
-
-@keyframes fadeInUp {
-	from {
-		opacity: 0;
-		transform: translateY(20%);
-	}
-
-	to {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
-
-@keyframes fadeOutUp {
-	from {
-		opacity: 1;
-		transform: translateY(0);
-	}
-
-	to {
-		opacity: 0;
-		transform: translateY(20%);
-	}
-}
-
 .animate {
 	animation: fadeInUp 1s;
 	animation-play-state: paused;
+	opacity: 0;
+	transform: translateY(-20%);
 }
 
 
