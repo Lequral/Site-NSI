@@ -17,6 +17,7 @@ const tryAnimate = () => {
 
         if (yCoordoonates[0] < pageYpourcent && pageYpourcent < yCoordoonates[1]) {
 
+            if(animation === undefined) return
 
             if (animation.currentTime < 100 || 1900 < animation.currentTime) { //test si l'element est bien au début de l'animation donc caché
                 if(!(animation.playState === "paused")) return
