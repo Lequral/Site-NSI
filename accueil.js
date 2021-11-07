@@ -2,24 +2,6 @@ var toAnimate = document.getElementsByClassName("animate")
 
 var pageYpourcent;
 
-
-const FadeOutUp = element => {
-    console.log("fadeOutUp")
-}
-
-const restartAnimation = i => {
-
-    let element = toAnimate[i]
-
-    element.classList.remove("animate");
-
-    // trigger a DOM reflow 
-    void element.offsetWidth;
-
-    element.classList.add("animate");
-    element.style.animationPlayState = "paused"
-}
-
 const tryAnimate = () => {
 
     let yMinMax = [
