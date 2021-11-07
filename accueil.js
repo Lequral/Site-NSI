@@ -49,7 +49,6 @@ const tryAnimate = () => {
                 setTimeout(() => {
                     animation.pause()
                     animation = element.getAnimations()[0]
-                    // console.log(animation.currentTime != 2000 && animation.currentTime != 0 && 900 < animation.currentTime < 1100, animation.currentTime, "pause")
                 }, 1000)
 
             }
@@ -85,16 +84,3 @@ window.addEventListener('scroll', function () {
     tryAnimate()
     console.log(pageYpourcent)
 });
-
-// contextDiv = document.getElementById("context")
-// var animation = contextDiv.getAnimations()[0]
-// console.log(animation.currentTime != 2000 && animation.currentTime != 0 && 900 < animation.currentTime < 1100, animation.currentTime)
-
-// console.log(animation)
-// contextDiv.style.animationPlayState = "running"
-// setTimeout(() => {
-
-//   contextDiv.style.animationPlayState = "paused";
-//   animation = contextDiv.getAnimations()[0]
-//   console.log(animation.currentTime != 2000 && animation.currentTime != 0 && 900 < animation.currentTime < 1100, animation.currentTime)
-// },1000)
