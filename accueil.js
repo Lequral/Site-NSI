@@ -2,14 +2,19 @@ var toAnimate = document.getElementsByClassName("animate")
 
 var pageYpourcent;
 
+
+const FadeOutUp = element => {
+    console.log("fadeOutUp")
+}
+
 const restartAnimation = i => {
 
     let element = toAnimate[i]
-    
-    element.classList.remove("animate"); 
+
+    element.classList.remove("animate");
 
     // trigger a DOM reflow 
-    void element.offsetWidth; 
+    void element.offsetWidth;
 
     element.classList.add("animate");
     element.style.animationPlayState = "paused"
@@ -18,28 +23,50 @@ const restartAnimation = i => {
 const tryAnimate = () => {
 
     let yMinMax = [
-        [0, 100],
-        [0, 100],
-        [0, 100],
-        [0, 100],
-        [0, 100],
-        [0, 100],
-        [0, 100],
-        [0, 100],
-        [0, 100]
+        [12, 28],
+        [30, 48],
+        [48, 69],
+        [65, 80],
+        [80, 101]
     ]
 
     for (i in [...Array(toAnimate.length).keys()]) {
-        let yCoord = yMinMax[i]
-        // console.log(`i = ${i}`) pour débugger
-        
-        if (yCoord[0] < pageYpourcent && pageYpourcent < yCoord[1]) {//yCoord[0] = l'ordonné minimale pour animer, yCoord[1] = l'ordonné max
-            toAnimate[i].style.animationPlayState = "running";
-            // console.log("animate")
-        } else {
-            if (toAnimate[0].style.animationPlayState == "running") {
-                // console.log("restart animation")
-                restartAnimation(i)
+
+        let yCoordoonates = yMinMax[i]
+
+        let element = toAnimate[i]
+        let animation = element.getAnimations()[0]
+
+        if (yCoordoonates[0] < pageYpourcent && pageYpourcent < yCoordoonates[1]) {
+
+
+            if (animation.currentTime < 100 || 1900 < animation.currentTime) { //test si l'element est bien au début de l'animation donc caché
+                if(!(animation.playState === "paused")) return
+
+                console.log("fadeIn animation on element ", parseInt(i) + 1)
+                animation.play()
+
+                setTimeout(() => {
+                    animation.pause()
+                    animation = element.getAnimations()[0]
+                    // console.log(animation.currentTime != 2000 && animation.currentTime != 0 && 900 < animation.currentTime < 1100, animation.currentTime, "pause")
+                }, 1000)
+
+            }
+
+        } else if (animation.playState === "paused") {
+
+            if (900 < animation.currentTime && animation.currentTime < 1100) { //test si l'element est bien au milieu de l'animation donc visible
+
+                console.log("fadeOut animation on element ", parseInt(i) + 1)
+                animation.play()
+
+                animation.onfinish = () => {
+                    element.style.opacity = 0
+                    animation.currentTime = 0
+                    animation.pause()
+                }
+
             }
         }
     }
@@ -49,10 +76,25 @@ const tryAnimate = () => {
 
 window.onload = function () {
     pageYpourcent = Math.round(scrollY / (document.body.scrollHeight - innerHeight) * 100);
-    console.log(tryAnimate())
+    tryAnimate()
+    console.log(pageYpourcent)
 }
 
 window.addEventListener('scroll', function () {
     pageYpourcent = Math.round(scrollY / (document.body.scrollHeight - innerHeight) * 100);
-    console.log(tryAnimate())
+    tryAnimate()
+    console.log(pageYpourcent)
 });
+
+// contextDiv = document.getElementById("context")
+// var animation = contextDiv.getAnimations()[0]
+// console.log(animation.currentTime != 2000 && animation.currentTime != 0 && 900 < animation.currentTime < 1100, animation.currentTime)
+
+// console.log(animation)
+// contextDiv.style.animationPlayState = "running"
+// setTimeout(() => {
+
+//   contextDiv.style.animationPlayState = "paused";
+//   animation = contextDiv.getAnimations()[0]
+//   console.log(animation.currentTime != 2000 && animation.currentTime != 0 && 900 < animation.currentTime < 1100, animation.currentTime)
+// },1000)
