@@ -160,7 +160,7 @@ header #visit {
 }
 
 .gallery div {
-	margin-top: 5%;
+	margin-top: 10%;
 	display: flex;
 	justify-content: center;
 }
@@ -179,32 +179,32 @@ header #visit {
 	top: 1vw;
 }
 
-.gallery .jake {
+.gallery #jake {
 	margin-top: 8%;
 }
 
-.gallery .jake #img {
+.gallery #jake #img {
 	width: 70%;
 }
 
-.gallery .jake p {
+.gallery #jake p {
 	width: 35%;
 	height: 30%;
 	position: relative;
 	left: 4vw;
 }
 
-.gallery .neytiri p {
+.gallery #neytiri p {
 	position: relative;
 	right: 2vw;
 }
 
-.gallery .neytiri #img {
+.gallery #neytiri #img {
 	width: 70%;
 }
 
 
-.gallery .trudyAndColonel p.trudy {
+.gallery #trudyAndColonel p.trudy {
 	position: relative;
 	top:5vw
 }
@@ -219,38 +219,53 @@ header #visit {
 }
 
 
-.gallery .DrGraceAugustine #humain{
+.gallery #DrGraceAugustine #humain{
 	width: 65%;
 	margin-right: 3%;
 }
 
 
-.gallery .DrGraceAugustine #avatar{
+.gallery #DrGraceAugustine #avatar{
 	width: 35%;
 	max-height: 342px;
 	margin-left: 3%;
 }
 
-.gallery .DrGraceAugustine #avatar p{
+.gallery #DrGraceAugustine #avatar p{
 	text-align: right;
 	position: relative;
 	right: 2vw;
 }
 
-.gallery .DrGraceAugustine #avatar .arrow{
+.gallery #DrGraceAugustine #avatar .arrow{
 	position: relative;
 	top:1vw;
 	right: 8.2vw;
 }
 
 
-.animate {
-	animation: fadeInUp 1s;
-	animation-play-state: paused;
-	opacity: 0;
-	transform: translateY(-20%);
+
+@keyframes fadeInUp {
+	100% {
+		opacity: 0;
+		transform: translateY(20%);
+	}
+
+	50% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	0% {
+		opacity: 0;
+		transform: translateY(20%);
+	}
 }
 
+.animate {
+	animation: fadeInUp 2s;
+	animation-play-state: paused;
+}
 
 #bandeaufin{
 	width:100%;
