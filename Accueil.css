@@ -232,15 +232,13 @@ header #visit {
 }
 
 .gallery #DrGraceAugustine #avatar p{
-	text-align: right;
-	position: relative;
-	right: 2vw;
+	text-justify: inter-word;
+	width: 50%;
 }
 
 .gallery #DrGraceAugustine #avatar .arrow{
 	position: relative;
-	top:1vw;
-	right: 8.2vw;
+	right: 4vw;
 }
 
 
