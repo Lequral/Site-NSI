@@ -78,6 +78,14 @@ header #visit {
 
 
 
+.frame {
+	margin: 0 10%;
+	width: 80%;
+}
+
+
+
+
 @keyframes fadeInUp {
 	100% {
 		opacity: 0;
