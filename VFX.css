@@ -160,8 +160,9 @@ p {
 
 
 .boxText {
-	margin-right: 10%;	
-	width: 100%;
+	margin-left:5%;
+	margin-right: 5%;	
+	width: 95%;
 	height: 30%;
 	text-align: justify;
 	text-justify: inter-word;
@@ -186,14 +187,6 @@ p {
 	margin-left: 40%;
 }
 
-
-
-.boxText{
-
-	margin-left:5%
-	
-	
-}
 
 
 
