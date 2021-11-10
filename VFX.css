@@ -196,3 +196,27 @@ p {
 }
 
 
+
+#ImagedeSynthèse{
+
+	margin-top: 10%;
+	
+}
+
+
+#ImagedeSynthèse img{
+	width: 50%;
+	height: 100%;
+	position: relative;	
+	margin-left: 40%;
+
+	
+}
+
+#ISTITRE{
+	margin-top: 20%;
+
+}
+	
+
+
