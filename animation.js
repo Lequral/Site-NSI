@@ -14,6 +14,8 @@ const tryAnimate = () => {
         let animation = element.getAnimations()[0]
 
         if(animation === undefined) return
+
+        if(yCoordoonates === undefined) return
  
         if (yCoordoonates[0] < pageYpourcent && pageYpourcent < yCoordoonates[1]) {
 
@@ -70,6 +72,7 @@ window.onload = function () {
         console.log("Data for Suite page loaded")
     } else if (document.title === "VFX | Avatar") {
         yMinMax = [
+            [0, 100],
             [0, 100]
         ]
         console.log("Data for VFX page loaded")
