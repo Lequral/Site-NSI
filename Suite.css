@@ -90,7 +90,7 @@ header #visit {
 }
 
 .filmBox p {
-	width: 50%;
+	width: 30%;
 	text-align: justify;
 	text-justify: inter-word;
 	margin-bottom: 5%;
@@ -98,7 +98,7 @@ header #visit {
 }
 
 .filmBox img {
-	width: 50%;
+	width: 70%;
 	/* margin-top: 15%; */
 	margin-left: 5%;
 }

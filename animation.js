@@ -64,18 +64,19 @@ window.onload = function () {
         ]
 
         console.log("Data for Accueil page loaded")
-    }else if (document.title === "Suite | Avatar") {
-        yMinMax = [
-            [0, 100]
-        ]
-
-        console.log("Data for Suite page loaded")
     } else if (document.title === "VFX | Avatar") {
         yMinMax = [
             [0, 100],
             [0, 100]
         ]
         console.log("Data for VFX page loaded")
+
+    }else if (document.title === "Suite | Avatar") {
+        yMinMax = [
+            [-5, 100]
+        ]
+
+        console.log("Data for Suite page loaded")
     }
 
 
