@@ -144,7 +144,12 @@ p {
 	color:var(--grey);
 }
 
+a{
+	font-size: 22px;
+	font-family: JosefinSans-Medium;
+	color:var(--dark-grey-blue);
 
+}
 
 .boxText {
 	margin-left:5%;
@@ -199,23 +204,16 @@ p {
 }
 	
 
-/* #avant { 
-	margin: 0;
-	width: 50%;
-	position: absolute;
-	height: auto;
+#videoTournage{
 
+	margin-left: 10%;
 }
 
 
-#apres {
+#scenetournage{
+	margin-top: 15%;
 
-	width: 75%;
-	height: 50%;
-	position: relative;
-	margin-left: 50%;
 }
-*/
 	
 
 
