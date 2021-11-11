@@ -79,19 +79,6 @@ header #visit {
 
 
 
-.imgAccueilVFX img{
-	width:100%; 
-}
-
-/* .frame{
-	
-} */
-
-
-
-
-
-
 @keyframes fadeInUp {
 	100% {
 		opacity: 0;
@@ -210,6 +197,25 @@ p {
 	margin-top: 20%;
 
 }
+	
+
+/* #avant { 
+	margin: 0;
+	width: 50%;
+	position: absolute;
+	height: auto;
+
+}
+
+
+#apres {
+
+	width: 75%;
+	height: 50%;
+	position: relative;
+	margin-left: 50%;
+}
+*/
 	
 
 
