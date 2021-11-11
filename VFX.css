@@ -205,15 +205,31 @@ a{
 	
 
 #videoTournage{
-
+	text-align: center;
+	width: 80%;
+	height: 22.5vw;
 	margin-left: 10%;
 }
 
+#videoTournage iframe {
+	width: 50%;
+	height: 100%;
+	margin: 0 2%;
+}
+
+#videoTournage #iframe {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
 
 #scenetournage{
 	margin-top: 15%;
 
 }
-	
 
-
+#scenetournage h1{
+	text-align: center;
+}
