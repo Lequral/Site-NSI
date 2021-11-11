@@ -159,6 +159,10 @@ a{
 
 }
 
+.frame div{
+	max-width: 100%;
+}
+
 .boxText {
 	margin-left:5%;
 	margin-right: 5%;	
@@ -243,6 +247,12 @@ a{
 	text-align: center;
 }
 
+.boxText2 {
+	margin: 0 5%;	
+	width: 90%;
+	text-align: justify;
+	text-justify: inter-word;
+}
 
 #etapeProduction{
 	margin-top: 20%;
@@ -252,13 +262,18 @@ a{
 
 
 
-
 #Prepro{
-	margin-left: 50%;
-	position: relative;
+	margin-left: 55%;
 	height: 100%;
-	width: 100%;
-	
-	
+	width: 47%;
+	position: relative;
+	bottom: 10vw;
+	text-align: justify;
+}
 
+#conception {
+	margin-right: 55%;
+	height: 100%;
+	width: 47%;
+	text-align: justify;
 }

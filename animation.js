@@ -8,14 +8,14 @@ const tryAnimate = () => {
 
     for (i in [...Array(toAnimate.length).keys()]) {
 
+        if(yMinMax === undefined) return
+
         let yCoordoonates = yMinMax[i]
 
         let element = toAnimate[i]
         let animation = element.getAnimations()[0]
 
         if(animation === undefined) return
-
-        if(yCoordoonates === undefined) return
  
         if (yCoordoonates[0] < pageYpourcent && pageYpourcent < yCoordoonates[1]) {
 
