@@ -79,19 +79,6 @@ header #visit {
 
 
 
-.imgAccueilVFX img{
-	width:100%; 
-}
-
-/* .frame{
-	
-} */
-
-
-
-
-
-
 @keyframes fadeInUp {
 	100% {
 		opacity: 0;
@@ -157,7 +144,12 @@ p {
 	color:var(--grey);
 }
 
+a{
+	font-size: 22px;
+	font-family: JosefinSans-Medium;
+	color:var(--dark-grey-blue);
 
+}
 
 .boxText {
 	margin-left:5%;
@@ -208,6 +200,18 @@ p {
 
 #ISTITRE{
 	margin-top: 20%;
+
+}
+	
+
+#videoTournage{
+
+	margin-left: 10%;
+}
+
+
+#scenetournage{
+	margin-top: 15%;
 
 }
 	
