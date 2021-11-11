@@ -66,7 +66,7 @@ window.onload = function () {
         console.log("Data for Accueil page loaded")
     } else if (document.title === "VFX | Avatar") {
         yMinMax = [
-            [0, 25],
+            [-5, 25],
             [20,50],
             [44,100]
         ]
@@ -74,7 +74,8 @@ window.onload = function () {
 
     }else if (document.title === "Suite | Avatar") {
         yMinMax = [
-            [-5, 100]
+            [-5, 100],
+            [10, 100]
         ]
 
         console.log("Data for Suite page loaded")
