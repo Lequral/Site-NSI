@@ -68,7 +68,8 @@ window.onload = function () {
         yMinMax = [
             [-5, 25],
             [20,50],
-            [44,100]
+            [44,75],
+            [70,100]
         ]
         console.log("Data for VFX page loaded")
 
