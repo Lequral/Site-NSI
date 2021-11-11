@@ -138,6 +138,14 @@ h1 {
 	color:var(--dark-grey-blue);
 }
 
+h2{
+	font-size: 55px;
+	font-family: JosefinSans-Bold;
+	color:var(--lighter-grey-blue);
+	
+
+}
+
 p {
 	font-size: 22px;
 	font-family: JosefinSans-Medium;
@@ -164,6 +172,7 @@ a{
 	margin: 2;
 	position: relative;
 	bottom: 2vw;
+	color:var(--dark-grey-blue);
 }
 
 .boxText p {
@@ -190,7 +199,7 @@ a{
 
 
 #ImagedeSynthèse img{
-	width: 43%;
+	width: 50%;
 	height: 100%;
 	position: relative;	
 	margin-left: 40%;
@@ -232,4 +241,24 @@ a{
 
 #scenetournage h1{
 	text-align: center;
+}
+
+
+#etapeProduction{
+	margin-top: 20%;
+}
+
+
+
+
+
+
+#Prepro{
+	margin-left: 50%;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	
+	
+
 }
