@@ -83,6 +83,25 @@ header #visit {
 	width: 80%;
 }
 
+.filmBox div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.filmBox p {
+	width: 50%;
+	text-align: justify;
+	text-justify: inter-word;
+	margin-bottom: 5%;
+	margin-top: 0;
+}
+
+.filmBox img {
+	width: 50%;
+	/* margin-top: 15%; */
+	margin-left: 5%;
+}
 
 
 
