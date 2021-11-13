@@ -159,9 +159,14 @@ a{
 
 }
 
-#bandeau img{
-	width: 30%;
+#bandeau{
+	
+	margin: 0;
+	width: 35%;	
+	
 }
+
+
 
 .frame div{
 	max-width: 100%;
@@ -190,6 +195,7 @@ a{
 
 
 }
+
 
 
 #MotionCapture img {

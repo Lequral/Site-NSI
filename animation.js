@@ -66,9 +66,9 @@ window.onload = function () {
         console.log("Data for Accueil page loaded")
     } else if (document.title === "VFX | Avatar") {
         yMinMax = [
-            [-5, 105],
-            [10,105],
-            [30,105],
+            [0, 105],
+            [20,105],
+            [27,105],
             [45,105]
         ]
         console.log("Data for VFX page loaded")
