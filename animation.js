@@ -56,27 +56,27 @@ window.onload = function () {
 
     if (document.title === "Accueil | Avatar") {
         yMinMax = [
-            [12, 28],
-            [30, 48],
-            [48, 69],
-            [65, 80],
-            [80, 101]
+            [12, 105],
+            [30, 105],
+            [48, 105],
+            [65, 105],
+            [80, 105]
         ]
 
         console.log("Data for Accueil page loaded")
     } else if (document.title === "VFX | Avatar") {
         yMinMax = [
-            [-5, 25],
-            [20,50],
-            [44,75],
-            [70,100]
+            [-5, 105],
+            [20,105],
+            [44,105],
+            [70,105]
         ]
         console.log("Data for VFX page loaded")
 
     }else if (document.title === "Suite | Avatar") {
         yMinMax = [
-            [-5, 100],
-            [10, 100]
+            [-5, 105],
+            [10, 105]
         ]
 
         console.log("Data for Suite page loaded")

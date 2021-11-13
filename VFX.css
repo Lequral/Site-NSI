@@ -185,7 +185,10 @@ a{
 	position: absolute;
 
 
-}#MotionCapture img {
+}
+
+
+#MotionCapture img {
 	width: 40%;
 	height: 100%;
 	position: relative;
@@ -193,7 +196,10 @@ a{
 }
 
 
+.boxText2 h1{
 
+	font-size: 107px;
+}
 
 #ImagedeSynthèse{
 
@@ -267,7 +273,7 @@ a{
 	height: 100%;
 	width: 47%;
 	position: relative;
-	bottom: 10vw;
+	bottom: 29vw;
 	text-align: justify;
 }
 
@@ -277,3 +283,41 @@ a{
 	width: 47%;
 	text-align: justify;
 }
+
+
+#cletitre {
+
+	margin-right: 55%;
+	height: 100%;
+	width: 47%;
+	position: relative;
+	bottom: 29vw;
+	text-align: justify;
+
+}
+
+
+#postpro{
+	margin-left: 55%;
+	height: 100%;
+	width: 47%;
+	text-align: justify;
+	position: relative;
+	bottom: 29vw;
+
+
+}
+
+#conception img{
+
+	position: relative;
+	bottom:0vw;
+	
+	width: 100%;
+	
+
+	
+}
+
+
+
