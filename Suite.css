@@ -37,7 +37,7 @@
 
 
 body {
- 	background: #ffffff;
+	background: #fdfdfd;
 	margin: 0;
 	padding: 0;
 }
@@ -124,14 +124,65 @@ header #visit {
 }
 
 .gameBox {
-	width: 80%;
-	margin: 5% 10% 0 5%;
+	margin-top: 10%;
 }
 
 .gameBox img {
-	width: 60%;
+	max-width: 100%;
+}
+
+.gameBox h1 {
+	text-align: center;
+}
+
+.gameBox h2 {
+	margin-left: 5%;
+
 }
  
+.gameBox video {
+	width: 100%;
+	height: calc(99.1vw * 0.42499); /*Vaut la hauteur de la vidéo par rapport à la largeur de l'écran. 0.42499 c le coéficcient entre la largeur et la longueur de la vidéo.*/
+}
+
+.gameBox #frontiers {
+	height: calc(99.1vw * 0.42499)
+}
+
+.gameBox #frontiers h2{
+	font-size: 115px;
+	margin-bottom: 2%;
+	color: var(--ghost-white);
+	position: relative;
+	bottom: calc(99.1vw * 0.42499 * 0.48);/*Vaut 48% de la hauteur de la vidéo du dessus*/
+}
+
+.gameBox #frontiers p{
+	color: var(--ghost-white);
+	position: relative;
+	bottom: calc(99.1vw * 0.42499 * 0.48);/*Vaut 48% de la hauteur de la vidéo du dessus*/
+	margin: 0 5%;
+	font-size: 30px;
+}
+
+.gameBox #rising h2{
+	position: relative;
+	bottom: 560px;
+	width: 36%;
+}
+
+
+.gameBox #rising p{
+	width: 45%;
+	margin-left: 5%;
+	position: relative;
+	bottom: 600px;
+}
+
+.gameBox #rising img {
+	width: 70vw;
+	margin-left: 20%;
+}
 
 
 @keyframes fadeInUp {
@@ -189,6 +240,12 @@ footer{
 
 h1 {
 	font-size: 110px;
+	font-family: JosefinSans-Bold;
+	color:var(--dark-grey-blue);
+}
+
+h2 {
+	font-size: 90px;
 	font-family: JosefinSans-Bold;
 	color:var(--dark-grey-blue);
 }

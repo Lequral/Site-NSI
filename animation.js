@@ -92,4 +92,5 @@ window.addEventListener('scroll', function () {
     pageYpourcent = Math.round(scrollY / (document.body.scrollHeight - innerHeight) * 100);
     tryAnimate()
     console.log(pageYpourcent)
+    
 });
