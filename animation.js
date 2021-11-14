@@ -64,14 +64,14 @@ window.onload = function () {
         ]
 
         console.log("Data for Accueil page loaded")
-    } else if (document.title === "VFX | Avatar") {
+    } else if (document.title === "Making OF | Avatar") {
         yMinMax = [
             [0, 105],
             [20,105],
             [27,105],
             [45,105]
         ]
-        console.log("Data for VFX page loaded")
+        console.log("Data for Making OF page loaded")
 
     }else if (document.title === "Suite | Avatar") {
         yMinMax = [
