@@ -165,6 +165,10 @@ header #visit {
 	font-size: 30px;
 }
 
+.gameBox #rising {
+	height: 50vw;
+}
+
 .gameBox #rising h2{
 	position: relative;
 	bottom: 560px;
@@ -184,6 +188,13 @@ header #visit {
 	margin-left: 20%;
 }
 
+#degrade {
+	height: 100px;
+	width: 100%;
+	background-image: linear-gradient(#fdfdfd, #f5f7fb);
+	position: relative;
+	top: 2vw;
+}
 
 @keyframes fadeInUp {
 	100% {
@@ -230,12 +241,6 @@ header #visit {
 	font-size: 15px;
 	font-family: JosefinSans-Regular;
 	color:var(--lighter-grey-blue);
-}
-
-
-footer{
-	position:relative;
-	top:450px;
 }
 
 h1 {
