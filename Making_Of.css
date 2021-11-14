@@ -159,17 +159,20 @@ a{
 
 }
 
-#bandeau{
-	
-	margin: 0;
-	width: 35%;	
-	
+#bandeau1 img{
+	width: 30%;
+		
 }
 
-
+#bandeau2 {
+	float: right;	
+	margin-left: 30%;
+	width: 70%;
+}
 
 .frame div{
 	max-width: 100%;
+	
 }
 
 .boxText {
