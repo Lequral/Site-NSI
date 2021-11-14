@@ -173,7 +173,7 @@ header #visit {
 .gameBox #rising h2{
 	font-size: 4.5vw;
 	position: relative;
-	bottom: 560px;
+	bottom: 28vw;
 	width: 36%;
 }
 
@@ -183,7 +183,7 @@ header #visit {
 	width: 45%;
 	margin-left: 5%;
 	position: relative;
-	bottom: 600px;
+	bottom: 30vw;
 }
 
 .gameBox #rising img {
