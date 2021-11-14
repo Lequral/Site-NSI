@@ -150,7 +150,7 @@ header #visit {
 }
 
 .gameBox #frontiers h2{
-	font-size: 115px;
+	font-size: 6vw;
 	margin-bottom: 2%;
 	color: var(--ghost-white);
 	position: relative;
@@ -162,14 +162,16 @@ header #visit {
 	position: relative;
 	bottom: calc(99.1vw * 0.42499 * 0.48);/*Vaut 48% de la hauteur de la vidéo du dessus*/
 	margin: 0 5%;
-	font-size: 30px;
+	font-size: 1.5vw;
 }
 
 .gameBox #rising {
 	height: 50vw;
+	margin-top: 2%;
 }
 
 .gameBox #rising h2{
+	font-size: 4.5vw;
 	position: relative;
 	bottom: 560px;
 	width: 36%;
@@ -177,6 +179,7 @@ header #visit {
 
 
 .gameBox #rising p{
+	font-size: 1.3vw;
 	width: 45%;
 	margin-left: 5%;
 	position: relative;
@@ -256,7 +259,7 @@ h2 {
 }
 
 p {
-	font-size: 22px;
+	font-size: 1.5vw;
 	font-family: JosefinSans-Medium;
 	color:var(--grey);
 }
