@@ -159,14 +159,16 @@ a{
 
 }
 
-#bandeau1 img{
+#bandeau {
+	display: flex;
+}
+
+#bandeau1 {
 	width: 30%;
 		
 }
 
 #bandeau2 {
-	float: right;	
-	margin-left: 30%;
 	width: 70%;
 }
 
