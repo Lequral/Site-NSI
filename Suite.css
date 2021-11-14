@@ -120,7 +120,7 @@ header #visit {
 	position: relative;
 	left: 5vw;
 	bottom: 22vw;
-	color: var(--ghost-white);
+	text-align: center;
 }
 
 .gameBox {
