@@ -159,6 +159,15 @@ a{
 
 }
 
+#bandeau{
+	
+	margin: 0;
+	width: 35%;	
+	
+}
+
+
+
 .frame div{
 	max-width: 100%;
 }
@@ -186,6 +195,7 @@ a{
 
 
 }
+
 
 
 #MotionCapture img {
@@ -273,7 +283,7 @@ a{
 	height: 100%;
 	width: 47%;
 	position: relative;
-	bottom: 29vw;
+	bottom: 44vw;
 	text-align: justify;
 }
 
@@ -285,7 +295,7 @@ a{
 }
 
 
-#cletitre {
+#Production {
 
 	margin-right: 55%;
 	height: 100%;
