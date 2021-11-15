@@ -1,12 +1,4 @@
 @font-face {
-    font-family: JosefinSans-Light;
-    src: url(./font/JosefinSans-Light.ttf);
-}
-@font-face {
-    font-family: JosefinSans-Thin;
-    src: url(./font/JosefinSans-Thin.ttf);
-}
-@font-face {
     font-family: JosefinSans-Medium;
     src: url(./font/JosefinSans-Medium.ttf);
 }
@@ -18,7 +10,10 @@
     font-family: JosefinSans-Bold;
     src: url(./font/JosefinSans-Bold.ttf);
 }
-
+@font-face {
+    font-family: JosefinSans-MediumItalic;
+    src: url(./font/JosefinSans-MediumItalic.ttf);
+}
 * {
 	scrollbar-color: #454a4d #202324;
 }
@@ -92,14 +87,17 @@ header #visit {
 	width: 30%;
 	text-align: justify;
 	text-justify: inter-word;
-	margin-bottom: 5%;
 	margin-top: 0;
 }
 
 .filmBox img {
 	width: 70%;
-	/* margin-top: 15%; */
 	margin-left: 5%;
+}
+
+.filmBox #liste {
+	width: 70%;
+	margin: 0 0 0 2%
 }
 
 #bandeauJeux  {
@@ -111,7 +109,6 @@ header #visit {
 #bandeauJeux video {
 	background-size: cover;
 	width: 100%;
-	/* height: 42vw; */
 }
 
 #bandeauJeux h1 {
@@ -124,7 +121,7 @@ header #visit {
 }
 
 .gameBox {
-	margin-top: 10%;
+	margin-top: 20%;
 }
 
 .gameBox img {
@@ -167,7 +164,7 @@ header #visit {
 
 .gameBox #rising {
 	height: 50vw;
-	margin-top: 2%;
+	margin-top: 10%;
 }
 
 .gameBox #rising h2{
@@ -236,15 +233,64 @@ header #visit {
 	font-size: 15px;
 }
 
+
 #creditBar p {
-	margin-left: 80%;
+	text-align: end;
+	margin-right: 5%;
 	max-height: 30px;
 	position:relative;
 	top:35px;
 	font-size: 15px;
 	font-family: JosefinSans-Regular;
-	color:var(--lighter-grey-blue);
+	color: black;
 }
+
+
+footer{
+	position:relative;
+	top:5%;
+}
+
+footer #creditBar {
+	display: flex
+}
+
+footer #creditBar p {
+	width:50%;
+}
+
+footer #icones {
+	width:50%;
+	max-height: 50px; 
+	position: relative;
+	top: 2vw;
+}
+
+footer ul{
+	color: #20222c;
+	display: flex;
+	align-items: end;
+}
+
+footer ul img {
+	max-width: 30px;
+	max-height: 30px;
+}
+
+footer li {
+	margin: 0 5%;
+}
+
+
+.source {
+	margin-left:85%;
+	font-family: JosefinSans-MediumItalic;
+	font-size: 1.5vw;
+	color:var(--usafa-blue-visited);
+	position: relative;
+	bottom: 8vw; 
+}
+
 
 h1 {
 	font-size: 110px;
@@ -263,3 +309,15 @@ p {
 	font-family: JosefinSans-Medium;
 	color:var(--grey);
 }
+
+ul {
+	font-size: 1.5vw;
+	font-family: JosefinSans-Medium;
+	color:var(--grey);
+}
+
+li {
+	font-size: 1.5vw;
+	font-family: JosefinSans-Medium;
+}
+

@@ -1,12 +1,4 @@
 @font-face {
-    font-family: JosefinSans-Light;
-    src: url(./font/JosefinSans-Light.ttf);
-}
-@font-face {
-    font-family: JosefinSans-Thin;
-    src: url(./font/JosefinSans-Thin.ttf);
-}
-@font-face {
     font-family: JosefinSans-Medium;
     src: url(./font/JosefinSans-Medium.ttf);
 }
@@ -83,11 +75,6 @@ header #visit {
 	width: 100%;
 }
 
-
-.light {
-	font-family: JosefinSans-Light;
-}
-
 .bandeau1 {
 	min-height: 100px;
 	display: flex;
@@ -103,8 +90,6 @@ header #visit {
 	top:18vw;
 	left:35%;
 	max-width: 30%;
-	/*display: flex;
-	justify-content: center;*/
 }
 
 #imgSvg {
@@ -145,18 +130,12 @@ header #visit {
 
 
 .gallery {
-	/* display: inline; */
-	/* margin-top: 7%; */
 	padding: 5%;
 	text-align: center;
 }
 
 .gallery h1 {
-	/* position: relative;
-	top: 7vw;
-    margin-top: 7vw;
-	margin-bottom: 10%; */
-	margin-top: 7vw;
+	margin-top: 0vw;
 }
 
 .gallery div {
@@ -280,19 +259,50 @@ header #visit {
 }
 
 #creditBar p {
-	margin-left: 80%;
+	text-align: end;
+	margin-right: 5%;
 	max-height: 30px;
 	position:relative;
 	top:35px;
 	font-size: 15px;
 	font-family: JosefinSans-Regular;
-	color:var(--lighter-grey-blue);
+	color: black;
 }
 
 
 footer{
 	position:relative;
 	top:5%;
+}
+
+footer #creditBar {
+	display: flex
+}
+
+footer #creditBar p {
+	width:50%;
+}
+
+footer #icones {
+	width:50%;
+	max-height: 50px; 
+	position: relative;
+	top: 2vw;
+}
+
+footer ul{
+	color: #20222c;
+	display: flex;
+	align-items: end;
+}
+
+footer ul img {
+	max-width: 30px;
+	max-height: 30px;
+}
+
+footer li {
+	margin: 0 5%;
 }
 
 h1 {
@@ -306,3 +316,14 @@ p {
 	font-family: JosefinSans-Medium;
 	color:var(--grey);
 }
+
+
+.bg-gris {
+	background-color: #F1F1F5;
+	padding-top: 5%;
+	margin-top: 7%;
+}
+
+/*#degradeBD {
+	background-image: linear-gradient(#000000, #f5f7fb);
+}*/
